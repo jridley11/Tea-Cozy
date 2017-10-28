@@ -6,6 +6,7 @@ body {
   background-color: black;
   opacity: 0.9;
   margin: 0;
+  text-align: center;
 }
 
 /* Header */
@@ -39,8 +40,21 @@ a {
 }
 
 /* Main Content */
-/* Our Mission */
-/* Tea of the Month */
-/* Locations */
-/* Contact */
-/* Footer */
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+/* Mission Section */
+.mission {
+  padding-top: 70px;
+  height: 700px;
+  background-image: url("./images/mission-background.jpg");
+}
+
+/* Tea of Month Section */
+/* Locations Section */
+/* Contact Section */
+/* Footer Section */
