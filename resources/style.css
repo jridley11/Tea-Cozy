@@ -47,13 +47,25 @@ a {
   opacity: 0.9;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
 /* Mission Section */
 .mission {
-  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
   height: 700px;
   background-image: url("./images/mission-background.jpg");
 }
 
+.content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
 /* Tea of Month Section */
 /* Locations Section */
 /* Contact Section */
