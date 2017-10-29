@@ -18,6 +18,8 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   width: 100%;
+  z-index: 1;
+  background-color: black;
 }
 
 header img {
@@ -103,5 +105,31 @@ h2, h3, h4 {
   text-align: center;
 }
 /* Locations Section */
+
+.locations {
+  background-image: url("./images/locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /* Contact Section */
+.contact {
+  height: 200px;
+}
+
 /* Footer Section */
+footer {
+  padding-left: 20px;
+  text-align: left;
+}
